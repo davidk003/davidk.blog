@@ -8,7 +8,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://davidk003.github.io/davidk.blog/',
+  site: 'https://davidk003.github.io',
+  base: 'davidk.blog',
   integrations: [
     tailwind({
       config: {
